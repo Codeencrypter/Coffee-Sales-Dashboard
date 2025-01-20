@@ -1,5 +1,8 @@
 # Coffee-Sales-Dashboard - Data Analysis Project
 
+![CoffeeSalesDashboard-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/64a84c43-b31b-4ddb-8ee4-2e0649ea56c9)
+
+
 ## Introduction:
 
 As a Data Geek and an aspiring Data Analyst, I have analyzed the dataset related to an Coffee business and presented my findings.
