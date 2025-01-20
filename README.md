@@ -16,26 +16,27 @@ To understand the Coffee Business better, I asked the following:
 ## Excel Skills Used
 The following Excel skills were utilized for analysis:
 
-- 🧮 Excel Formulas
+- 🧮 Excel Formulas & Functions
 - 📊 Pivot Tables
 - 📈 Pivot Charts
-- 💪 Power Pivot
+- 💪 Data Validation
 
-## E-Commerce Business Dataset
-The dataset used for this project contains data extracted from Kaggle.com. The dataset is available on Kaggle.com, providing a foundation for analyzing data using Excel.
+## Coffee Sales Dataset
+The dataset used for this project contains data extracted from Kaggle.com. The dataset is available on Kaggle.com, providing a foundation for me to analyze the data using Excel.
 It includes detailed information on:
 - 👨‍💼 Customers
 - 💰 Products
 - 📍 Orders
 - 🛠️ Sales
 
+## My Final Dashboard File is in [Download Excel File](files/)
+
   
  ## 1️⃣  Country Wise Coffee Sales of the business?
 
-## 🔍 Skill: Power Query (ETL)
+## 🔍 Skill: Excel Formulas & Functions
 
-### 📥 Extract
-- I first used Power Query to extract the original data (`Coffee Sales Dashboard.xlsx`).
+
 
 ### 🔄 Transform
 - Then, I transformed the query by changing column types, sorting the rows, reordering the columns, and trimming excess whitespace.
