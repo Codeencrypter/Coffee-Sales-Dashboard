@@ -29,7 +29,8 @@ It includes detailed information on:
 - 📍 Orders
 - 🛠️ Sales
 
-## My Final Dashboard File is in [Download Excel File]Coffee Sales Dashboard .xlsx
+## My Final Dashboard File is in [Download Excel File](relative/path/to/Coffee Sales Dashboard.xlsx)
+
 
 
 )
