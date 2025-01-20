@@ -38,7 +38,7 @@ It includes detailed information on:
 - Then, I transformed the query by changing column types, sorting the rows, reordering the columns, and trimming excess whitespace.
 - 📊 E-Commerce Dataset
 
-  ![SS Country Wise Sales Coffee](https://github.com/user-attachments/assets/564b615d-fc24-423a-b543-c92c7cab8f9c)
+ 
 
 
 
@@ -47,7 +47,7 @@ It includes detailed information on:
 - Finally, I loaded the transformed query into the workbook, setting the foundation for my subsequent analysis.
   - 📊 E-Commerce Dataset
  
-    ![Power Query Outlook Screenshot](https://github.com/user-attachments/assets/3f3d476c-9ea2-4966-85ae-a23f87c6893e)
+   
 
 
 
