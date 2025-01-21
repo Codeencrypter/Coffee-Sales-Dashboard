@@ -31,47 +31,55 @@ It includes detailed information on:
 
 ## My Final Dashboard File is in [Download Excel File](relative/path/to/https://github.com/Codeencrypter/Coffee-Sales-Dashboard/blob/main/Coffee%20Sales%20Dashboard%20.xlsx
 
-
-
-)
-
   
- ## 1️⃣  Country Wise Coffee Sales of the business?
+ ## Data Cleaning 
 
-## 🔍 Skill: Excel Formulas & Functions
+## 🔍 Skills: Excel Formulas & Functions
 
+- I used XLOOKUP Function for the purpose of extraction of the data from secondary worksheet to main worksheet of the workbook.
+- =XLOOKUP(Orders!C2,Customers!$A$1:$A$1001,Customers!$B$1:$B$1001,,0)
+- =IF(XLOOKUP(C2,Customers!$A$1:$A$1001,Customers!$C$1:$C$1001,,0)=0,"",XLOOKUP(C2,Customers!$A$1:$A$1001,Customers!$C$1:$C$1001,,0))
+📊 Dynamic Array Formula: Utilizes XLOOKUP function with nested IF() statement to analyze an array.
+🎯 Tailored Insights: Provides specific information for Customer Name, Customer Email and Country.
+🔢 Formula Purpose: This formula populates the columns below, returning the values based on Customer Data and specified Country.
 
+![SS XLOOKUP (COFFEE)](https://github.com/user-attachments/assets/e470a77e-bb88-4fbb-94ab-59fa7ccb7ee3)
 
-### 🔄 Transform
-- Then, I transformed the query by changing column types, sorting the rows, reordering the columns, and trimming excess whitespace.
-- 📊 E-Commerce Dataset
+- Used INDEX Match function to directly populate the data from one work sheet to another.
+- =INDEX(Products!$A$1:$G$49,MATCH(Orders!$D2,Products!$A$1:$A$49,0),MATCH(Orders!I$1,Products!$A$1:$G$1,0))
+- =INDEX(Products!$A$1:$G$49,MATCH(Orders!$D2,Products!$A$1:$A$49,0),MATCH(Orders!J$1,Products!$A$1:$G$1,0))
 
+ 🔢 Determine Sales by multiplication of Unit Price ✖️ Quantity Sold =L2*E2
+ 🔢 Used IF Function in order to change the abbrevations for the Coffee Types and Roast Type =IF(I2="Rob","Robusta",IF(I2="Exc","Excelsa",IF(I2="Lib","Liberica",IF(I2="Ara","Arabica",""))))
+ =IF(J2="M","Medium",IF(J2="L","Lite",IF(J2="D","Dark","")))
  
 
 
 
 
-### Load
-- Finally, I loaded the transformed query into the workbook, setting the foundation for my subsequent analysis.
-  - 📊 E-Commerce Dataset
- 
+## 1️⃣ Country Wise Coffee Sales of the Business?
+
+## 🧮 Skills: PivotTables & PivotCharts
+
+ 📈Pivot Table
+🔢 I created a PivotTable using the data table which I created in Orders Worksheet.
+📊 I moved the Years & Months to the rows area, sum of sales into the values area & Coffee Type name in columns area.
    
-
-
 
 ## 📊 Analysis
 
 ### 💡 Insights
-- 📈 There is a positive Year on Year Growth of the E-Commerce Business with Sales & Profit being increased by 20.62% & 14.41% yearly respectively.
-- Although the profit margin has reduced yearly, it has not hampered the overall growth of the business.
+- 💰 Arabica & Liberica are the top grossers  along with huge demand in months of January,Feburary and September followed by Excelsa & Robusta.
 
-  ![SS Country Wise Sales Coffee](https://github.com/user-attachments/assets/7881f763-8398-4b51-92c4-176dff30d6b4)
+  ![SS Country Wise (Coffee)](https://github.com/user-attachments/assets/66f57f36-43e5-4219-9aaf-a90f4d4f3300)
+
 
 
 
 
 ### 🤔 So What
-- This trend shows positive long-term growth for the E-Commerce Business, focus should be on increasing the profit margin along with more sales.
+- This trend shows demand for Arabica & Liberica Coffee types are constantly good and the business should focus on boosting the marketing & increase supply more in the months of January.
+- The business could do better in aspect of Robusta by understanding the demand better.
 
 ---
 
@@ -80,23 +88,24 @@ It includes detailed information on:
 🧮 Skills: PivotTables  
 📈 **Pivot Table**
 - 🔢 I created a PivotTable using the Data Model I created with Power Pivot.
-- 📊 I moved the Months (Order date) to the rows area and the Sum of Sales & Sum of Profit into the values area.
+- 📊 I moved the Customer Name to the rows area and the Sum of Sales into the values area.
 
 ### 📊 Analysis
 
 💡 **Insights**
-- 💼 Sales & Profit Analysis depicts that the month of December has been the highest sales & profit driver, followed by November & September.
-- 💰 While the months of January, February & April being the slowest.
+- 💼 The Bar Chart depicts the top 4 buyers are from United States and 1 from United Kingdom
+- 🔎 Demand for Coffee is the highest in United States & United Kingdom.
 
-  ![SS TOP 5 CUSTOMERS (COFFEE DASHBOARD)](https://github.com/user-attachments/assets/9cd49243-fd65-4b45-83ac-a20fe520a560)
+ ![SS Top Customers (Coffee)](https://github.com/user-attachments/assets/b3900dc9-d1ae-4691-8090-92601b7ab522)
+
+
 
 
 
 
 
 ### 🤔 So What
-- These Sales & Profit insights are important for planning and helping professionals and the business to align their product distribution according to the monthly sales variations.
-
+- These insights holds great importance for business and provides a strong base for decision making and understanding that the markets of United States is very fruitful in terms of growth along with sales & profit.
 ---
 
 ### 3️⃣ Total Coffee Sales Over Time?
